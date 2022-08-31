@@ -8,9 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    var posts: [Post] = allPosts
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            HStack {
+                Spacer()
+                Text("Stranger Book")
+                    .font(.custom("CorpusGaiiCaps", size: 30))
+                Spacer()
+            }
+            List(posts) { post in
+                //
+            }
+        }
     }
 }
 

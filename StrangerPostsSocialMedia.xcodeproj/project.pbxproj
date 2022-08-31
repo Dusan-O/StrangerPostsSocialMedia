@@ -15,6 +15,10 @@
 		2F19A8B828BF74AA003F4144 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F19A8B728BF74AA003F4144 /* Post.swift */; };
 		2F19A8BA28BF7AB4003F4144 /* StrangerDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F19A8B928BF7AB4003F4144 /* StrangerDatas.swift */; };
 		2F19A8BC28BF7B37003F4144 /* CorpusGaiiCaps.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F19A8BB28BF7B37003F4144 /* CorpusGaiiCaps.ttf */; };
+		2F19A8BF28BF7D61003F4144 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F19A8BE28BF7D61003F4144 /* PostView.swift */; };
+		2F19A8C128BF7D9E003F4144 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F19A8C028BF7D9E003F4144 /* HeaderView.swift */; };
+		2F19A8C328BF7DA6003F4144 /* BodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F19A8C228BF7DA6003F4144 /* BodyView.swift */; };
+		2F19A8C528BF7DB1003F4144 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F19A8C428BF7DB1003F4144 /* FooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		2F19A8B928BF7AB4003F4144 /* StrangerDatas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrangerDatas.swift; sourceTree = "<group>"; };
 		2F19A8BB28BF7B37003F4144 /* CorpusGaiiCaps.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CorpusGaiiCaps.ttf; sourceTree = "<group>"; };
 		2F19A8BD28BF7B56003F4144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2F19A8BE28BF7D61003F4144 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		2F19A8C028BF7D9E003F4144 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		2F19A8C228BF7DA6003F4144 /* BodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyView.swift; sourceTree = "<group>"; };
+		2F19A8C428BF7DB1003F4144 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +77,10 @@
 				2F19A8B728BF74AA003F4144 /* Post.swift */,
 				2F19A8B928BF7AB4003F4144 /* StrangerDatas.swift */,
 				2F19A8BB28BF7B37003F4144 /* CorpusGaiiCaps.ttf */,
+				2F19A8BE28BF7D61003F4144 /* PostView.swift */,
+				2F19A8C028BF7D9E003F4144 /* HeaderView.swift */,
+				2F19A8C228BF7DA6003F4144 /* BodyView.swift */,
+				2F19A8C428BF7DB1003F4144 /* FooterView.swift */,
 			);
 			path = StrangerPostsSocialMedia;
 			sourceTree = "<group>";
@@ -154,9 +166,13 @@
 			files = (
 				2F19A8AA28BF73D9003F4144 /* ContentView.swift in Sources */,
 				2F19A8A828BF73D9003F4144 /* StrangerPostsSocialMediaApp.swift in Sources */,
+				2F19A8C328BF7DA6003F4144 /* BodyView.swift in Sources */,
+				2F19A8C528BF7DB1003F4144 /* FooterView.swift in Sources */,
 				2F19A8B628BF741E003F4144 /* User.swift in Sources */,
 				2F19A8BA28BF7AB4003F4144 /* StrangerDatas.swift in Sources */,
+				2F19A8BF28BF7D61003F4144 /* PostView.swift in Sources */,
 				2F19A8B828BF74AA003F4144 /* Post.swift in Sources */,
+				2F19A8C128BF7D9E003F4144 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
