@@ -13,6 +13,8 @@
 		2F19A8AF28BF73DC003F4144 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F19A8AE28BF73DC003F4144 /* Preview Assets.xcassets */; };
 		2F19A8B628BF741E003F4144 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F19A8B528BF741E003F4144 /* User.swift */; };
 		2F19A8B828BF74AA003F4144 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F19A8B728BF74AA003F4144 /* Post.swift */; };
+		2F19A8BA28BF7AB4003F4144 /* StrangerDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F19A8B928BF7AB4003F4144 /* StrangerDatas.swift */; };
+		2F19A8BC28BF7B37003F4144 /* CorpusGaiiCaps.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F19A8BB28BF7B37003F4144 /* CorpusGaiiCaps.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,9 @@
 		2F19A8AE28BF73DC003F4144 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2F19A8B528BF741E003F4144 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		2F19A8B728BF74AA003F4144 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		2F19A8B928BF7AB4003F4144 /* StrangerDatas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrangerDatas.swift; sourceTree = "<group>"; };
+		2F19A8BB28BF7B37003F4144 /* CorpusGaiiCaps.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CorpusGaiiCaps.ttf; sourceTree = "<group>"; };
+		2F19A8BD28BF7B56003F4144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +60,15 @@
 		2F19A8A628BF73D9003F4144 /* StrangerPostsSocialMedia */ = {
 			isa = PBXGroup;
 			children = (
+				2F19A8BD28BF7B56003F4144 /* Info.plist */,
 				2F19A8A728BF73D9003F4144 /* StrangerPostsSocialMediaApp.swift */,
 				2F19A8A928BF73D9003F4144 /* ContentView.swift */,
 				2F19A8AB28BF73DC003F4144 /* Assets.xcassets */,
 				2F19A8AD28BF73DC003F4144 /* Preview Content */,
 				2F19A8B528BF741E003F4144 /* User.swift */,
 				2F19A8B728BF74AA003F4144 /* Post.swift */,
+				2F19A8B928BF7AB4003F4144 /* StrangerDatas.swift */,
+				2F19A8BB28BF7B37003F4144 /* CorpusGaiiCaps.ttf */,
 			);
 			path = StrangerPostsSocialMedia;
 			sourceTree = "<group>";
@@ -133,6 +141,7 @@
 			files = (
 				2F19A8AF28BF73DC003F4144 /* Preview Assets.xcassets in Resources */,
 				2F19A8AC28BF73DC003F4144 /* Assets.xcassets in Resources */,
+				2F19A8BC28BF7B37003F4144 /* CorpusGaiiCaps.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +155,7 @@
 				2F19A8AA28BF73D9003F4144 /* ContentView.swift in Sources */,
 				2F19A8A828BF73D9003F4144 /* StrangerPostsSocialMediaApp.swift in Sources */,
 				2F19A8B628BF741E003F4144 /* User.swift in Sources */,
+				2F19A8BA28BF7AB4003F4144 /* StrangerDatas.swift in Sources */,
 				2F19A8B828BF74AA003F4144 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +288,7 @@
 				DEVELOPMENT_TEAM = FM2ZRB2384;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StrangerPostsSocialMedia/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -307,6 +318,7 @@
 				DEVELOPMENT_TEAM = FM2ZRB2384;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StrangerPostsSocialMedia/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

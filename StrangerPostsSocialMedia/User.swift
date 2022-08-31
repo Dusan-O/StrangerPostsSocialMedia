@@ -9,5 +9,5 @@ import Foundation
 
 struct User {
     var name: String
-    var imagename: String
+    var imageName: String
 }
