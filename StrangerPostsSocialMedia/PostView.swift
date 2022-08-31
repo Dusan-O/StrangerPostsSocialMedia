@@ -14,11 +14,17 @@ struct PostView: View {
         VStack(alignment: .leading) {
             /// Header
             HeaderView(user: post.user)
+            MyDivider()
             /// Body
             BodyView(post: post)
+            MyDivider()
             /// Footer
             FooterView(post: post)
         }.padding()
+         .background() {
+             RoundedRectangle(cornerRadius: 20)
+                .stroke(.red, style: StrokeStyle(lineWidth: 0.5))
+            }
     }
 }
 

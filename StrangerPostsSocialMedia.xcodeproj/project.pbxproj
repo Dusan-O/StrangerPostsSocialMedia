@@ -19,6 +19,7 @@
 		2F19A8C128BF7D9E003F4144 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F19A8C028BF7D9E003F4144 /* HeaderView.swift */; };
 		2F19A8C328BF7DA6003F4144 /* BodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F19A8C228BF7DA6003F4144 /* BodyView.swift */; };
 		2F19A8C528BF7DB1003F4144 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F19A8C428BF7DB1003F4144 /* FooterView.swift */; };
+		2F19A8C728BF8038003F4144 /* MyDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F19A8C628BF8038003F4144 /* MyDivider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		2F19A8C028BF7D9E003F4144 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		2F19A8C228BF7DA6003F4144 /* BodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyView.swift; sourceTree = "<group>"; };
 		2F19A8C428BF7DB1003F4144 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		2F19A8C628BF8038003F4144 /* MyDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDivider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				2F19A8C028BF7D9E003F4144 /* HeaderView.swift */,
 				2F19A8C228BF7DA6003F4144 /* BodyView.swift */,
 				2F19A8C428BF7DB1003F4144 /* FooterView.swift */,
+				2F19A8C628BF8038003F4144 /* MyDivider.swift */,
 			);
 			path = StrangerPostsSocialMedia;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				2F19A8B628BF741E003F4144 /* User.swift in Sources */,
 				2F19A8BA28BF7AB4003F4144 /* StrangerDatas.swift in Sources */,
 				2F19A8BF28BF7D61003F4144 /* PostView.swift in Sources */,
+				2F19A8C728BF8038003F4144 /* MyDivider.swift in Sources */,
 				2F19A8B828BF74AA003F4144 /* Post.swift in Sources */,
 				2F19A8C128BF7D9E003F4144 /* HeaderView.swift in Sources */,
 			);
