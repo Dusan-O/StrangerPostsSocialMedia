@@ -17,7 +17,8 @@ struct PostView: View {
             /// Body
             BodyView(post: post)
             /// Footer
-        }
+            FooterView(post: post)
+        }.padding()
     }
 }
 

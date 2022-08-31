@@ -8,13 +8,21 @@
 import SwiftUI
 
 struct FooterView: View {
+    var post: Post
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Image(systemName: post.didLike ? "heart.fill" : "heart")
+            Text("\(post.likes) likes")
+            Spacer()
+            Image(systemName: "message")
+            Text("\(post.comments) messages")
+        }.foregroundColor(.red)
     }
 }
 
 struct FooterView_Previews: PreviewProvider {
     static var previews: some View {
-        FooterView()
+        FooterView(post: vecna)
     }
 }
