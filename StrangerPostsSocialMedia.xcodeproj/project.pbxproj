@@ -11,6 +11,8 @@
 		2F19A8AA28BF73D9003F4144 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F19A8A928BF73D9003F4144 /* ContentView.swift */; };
 		2F19A8AC28BF73DC003F4144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F19A8AB28BF73DC003F4144 /* Assets.xcassets */; };
 		2F19A8AF28BF73DC003F4144 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F19A8AE28BF73DC003F4144 /* Preview Assets.xcassets */; };
+		2F19A8B628BF741E003F4144 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F19A8B528BF741E003F4144 /* User.swift */; };
+		2F19A8B828BF74AA003F4144 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F19A8B728BF74AA003F4144 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		2F19A8A928BF73D9003F4144 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2F19A8AB28BF73DC003F4144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F19A8AE28BF73DC003F4144 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F19A8B528BF741E003F4144 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2F19A8B728BF74AA003F4144 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				2F19A8A928BF73D9003F4144 /* ContentView.swift */,
 				2F19A8AB28BF73DC003F4144 /* Assets.xcassets */,
 				2F19A8AD28BF73DC003F4144 /* Preview Content */,
+				2F19A8B528BF741E003F4144 /* User.swift */,
+				2F19A8B728BF74AA003F4144 /* Post.swift */,
 			);
 			path = StrangerPostsSocialMedia;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				2F19A8AA28BF73D9003F4144 /* ContentView.swift in Sources */,
 				2F19A8A828BF73D9003F4144 /* StrangerPostsSocialMediaApp.swift in Sources */,
+				2F19A8B628BF741E003F4144 /* User.swift in Sources */,
+				2F19A8B828BF74AA003F4144 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
